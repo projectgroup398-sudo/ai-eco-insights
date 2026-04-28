@@ -47,6 +47,26 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        energy: {
+          DEFAULT: "hsl(var(--energy))",
+          foreground: "hsl(var(--energy-foreground))",
+          soft: "hsl(var(--energy-soft))",
+        },
+        supply: {
+          DEFAULT: "hsl(var(--supply))",
+          foreground: "hsl(var(--supply-foreground))",
+          soft: "hsl(var(--supply-soft))",
+        },
+        ewaste: {
+          DEFAULT: "hsl(var(--ewaste))",
+          foreground: "hsl(var(--ewaste-foreground))",
+          soft: "hsl(var(--ewaste-soft))",
+        },
+        impact: {
+          high: "hsl(var(--impact-high))",
+          medium: "hsl(var(--impact-medium))",
+          low: "hsl(var(--impact-low))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
